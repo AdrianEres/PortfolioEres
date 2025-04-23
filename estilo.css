@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: "Dela Gothic One", sans-serif;
+    font-style: normal;
+}
+
+header{
+    background-color: #000;
+    border-bottom: 3px solid red;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.menu {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    padding: 2rem 1rem;
+    display: inline-block;
+    position: relative;
+    background-color: black;
+}
+
+.menu a:hover {
+    background: radial-gradient(circle, black 0%, red 100%);
+    color: white;
+}
+
+
+
