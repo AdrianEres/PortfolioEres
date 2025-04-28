@@ -47,5 +47,385 @@ header{
     color: white;
 }
 
+.cta{
+    margin: 10%;
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10%;
+}
+.cta span{
+    font-size: 3rem;
+    color: red;
+}
+
+#bio {
+    padding: 1rem 3rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: white;
+}
+  
+.presentacion {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.presentacion img{
+    width: 30%;
+}
+  
+.descripcion {
+    flex: 1;
+    min-width: 250px;
+    margin: 2em;
+}
+  
+.descripcion h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.titulo{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -4em;
+}
+
+.descripcion p {
+    position: relative;
+    top: -2em;
+    margin-bottom: 1rem;
+}
+
+.descripcion span{
+    color: red;
+}
+
+.descripcion ul {
+    margin-top: 1rem;
+    padding-left: 1rem;
+}
+  
+.descripcion li {
+    margin-bottom: 0.5rem;
+    list-style: none;
+    position: relative;
+}
+  
+.descripcion li::before {
+    content: '+';
+    position: absolute;
+    left: -1rem;
+}
+
+.educacion{
+    display: flex;
+    padding: 4%;
+    gap: 9em;
+    line-height: 2em;
+    align-items: center;
+}
+
+.educacion h3 {
+    font-size: 1.5em;
+    letter-spacing: 2px;
+}
+
+#skills {
+    padding: 3rem 1rem;
+    text-align: center;
+    color: white;
+}
+
+#skills h3 {
+    font-size: 1.5em;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.iconos-skills {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(80px, 1fr));
+    gap: 1.5rem;
+    justify-items: center;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.ilus:hover {
+    transform: translateY(-1em);
+}
+
+#edicion {
+    padding: 4rem 2rem;
+}
+
+.titulo2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.titulo2 p{
+    text-align: end;
+}
+
+.titulo2 h2 {
+    color: red;
+}
+
+.miniaturas{
+    padding: 2rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.miniaturas video{
+    max-width: 900px;
+}
+
+.miniaturas img{
+    max-width: 50%;
+}
+
+.miniaturas audio{
+    max-width: 50%;
+}
+
+#branding {
+    padding: 4rem;
+    padding-bottom: 0;
+}
+
+.titulo3 h2{
+    color: red;
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.walker{
+    display: flex;
+    margin-top: 3em;
+    justify-content: center;
+    gap: 10em;
+}
+
+.variante{
+    text-align: center;
+    margin: 2em 0;
+}
+
+.variantes{
+    width: 100%;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(300px, 1fr));
+}
+
+.variantes img{
+    width: 100%;
+}
+
+.tipografia{
+    margin-top: 3em;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 5em;
+}
+
+.tipografia p{
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 0.2em;
+    font-size: 1.5em;
+}
+
+.colores{
+    border: 10px solid red;
+    border-style: double;
+    margin: 6em;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    gap: 3em;
+}
+
+#disenoweb {
+    padding: 4em 3em;
+}
+
+#disenoweb h2{
+    font-size: 1.5em;
+    color: red;
+}
+
+.inicio{
+    display: flex;
+    gap: 3em;
+}
+
+.desinicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.desinicio img{
+    width: 30%;
+    margin-bottom: 5em;
+}
+
+#animacion3d {
+    padding: 4em 3em;
+}
+
+.navv{
+    padding: 3em 0;
+    width: 100%;
+}
+
+.bloquedis{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    gap: 4em;
+    text-align: center;
+}
+
+.bloquedis img{
+    width: 100%;
+}
 
 
+.galeria3d{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    grid-template-rows: repeat(3, minmax(200px, 1fr));
+    gap: 4em;
+    align-items: center;
+    justify-items: center;
+}
+
+.galeria3d img{
+    width: 100%;
+}
+
+.galeria3d h2{
+    font-size: 1.5em;
+    color: red;
+}
+
+#contacto{
+    padding: 2em 2em;
+}
+
+#contacto h2{
+    font-size: 1.5em;
+    color: red;
+    margin-right: 1em;
+    text-align: end;
+}
+
+form{
+    margin: 0 auto;
+    width: 100%;
+    padding: 1em;
+}
+
+form ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form ul li{
+    padding: 5px;
+}
+
+form input{
+    font-size: 1em;
+    font-family: "Dela Gothic One", sans-serif;
+    padding: .5em;
+    margin: 10px 0;
+    width: 100%;
+    border-bottom: 5px solid red;
+}
+
+form textarea{
+    font-size: 1em;
+    font-family: "Dela Gothic One", sans-serif;
+    height: 12em;
+    padding: .5em;
+    margin: 10px 0;
+    width: 100%;
+    border-bottom: 5px solid red;
+}
+
+form button{
+    font-size: 1em;
+    font-family: "Dela Gothic One", sans-serif;
+    display: flex;
+    padding: .5em 4em;
+    color: white;
+    background-color: red;
+}
+
+.redes{
+    padding: 4em 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.redes h3{
+    margin-right: 3em;
+}
+
+.redes a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+}
+
+.redes a:hover{
+    color: red;
+}
+
+footer h2{
+    color: red;
+    font-size: 3em;
+    text-align: center;
+}
+
+footer p{
+    width: 650px;
+    margin: 2em auto;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.logo-final{
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.logo-final img{
+    padding: 2em 1em;
+
+}
