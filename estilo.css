@@ -20,9 +20,8 @@ header{
 }
 
 .menu {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
-
 }
 
 .menu ul {
@@ -55,6 +54,7 @@ header{
     justify-content: space-around;
     gap: 10%;
 }
+
 .cta span{
     font-size: 3rem;
     color: red;
@@ -138,6 +138,10 @@ header{
     letter-spacing: 2px;
 }
 
+.educacion p{
+    text-align: center;
+}
+
 #skills {
     padding: 3rem 1rem;
     text-align: center;
@@ -157,7 +161,7 @@ header{
     gap: 1.5rem;
     justify-items: center;
     align-items: center;
-    max-width: 900px;
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -262,6 +266,8 @@ header{
     gap: 3em;
 }
 
+
+
 #disenoweb {
     padding: 4em 3em;
 }
@@ -307,7 +313,6 @@ header{
 .bloquedis img{
     width: 100%;
 }
-
 
 .galeria3d{
     display: grid;
@@ -428,4 +433,218 @@ footer p{
 .logo-final img{
     padding: 2em 1em;
 
+}
+
+@media (max-width: 440px) {
+    header{
+        border-bottom: 3px solid white ;
+    }
+
+    .menu{
+        display: flex;
+        white-space: nowrap;
+        overflow-x: auto;
+        padding: 10px;
+        scrollbar-width: none;
+    }
+
+    .menu::-webkit-scrollbar {
+        display: none;
+    }
+
+    .menu ul{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    
+    .menu ul li{
+        display: flex;
+    }
+
+    .menu ul li a {
+        flex: 0 0 auto;
+        margin: 0 3px;
+        padding: 8px 16px;
+        border-radius: 20px;
+        border: 2px solid red;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    .cta{
+        display: flex;
+        flex-direction: column;
+        font-size: 1em;
+        align-items: center;
+        justify-self: center;
+    }
+
+    .cta h1{
+        text-align: center;
+        margin-bottom: 1em;
+    }
+
+    .cta span{
+        font-size: .8em;
+    }
+
+    #bio {
+        padding: 1rem 2em;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        color: white;
+    }    
+
+    .presentacion img{
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .titulo{
+        margin-top: 3em;
+        font-size: 1em;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .titulo h2{
+        font-size: 1.2em;
+    }
+
+    .educacion{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        line-height: 2em;
+        align-items: center;
+    }
+
+    .iconos-skills {
+        width: 85%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 1em;
+        justify-items: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .ilus{
+        padding: .5em 0;
+        width: 80%;
+    }
+
+    .titulo2{
+        margin-top: -2em;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    .miniaturas video{
+        width: 200%;
+        margin: 0 auto;
+    }
+
+    .titulo3 p{
+        text-align: center;
+    }
+
+    .walker{
+        gap: 1em;
+        margin: 2em;
+    }
+
+    .walker img{
+        width: 80%;
+        object-fit: scale-down;
+    }
+
+    .redis{
+        padding: 1.5em;
+    }
+
+    .variantes{
+        width: 100%;
+        gap: 1em;
+        justify-items: center;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(150px, 1fr));
+    }
+    
+    .tipografia{
+        flex-direction: column-reverse;
+    }
+
+    .tipografia h3{
+        margin-top: -3em;
+    }
+
+    .tipografia p{
+        font-family: "Oswald", sans-serif;
+        letter-spacing: 0.2em;
+        font-size: 1.2em;
+    }
+
+    .colores{
+        margin: 2em;
+        display: grid;
+        border: none;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }
+
+    #disenoweb{
+        margin-top: -4em;
+    }
+
+    .inicio{
+        margin-top: 1em;
+        flex-direction: column;
+    }
+
+    .desinicio p{
+        margin-top: -1em;
+        margin-bottom: 1em;
+    }
+
+    .navv{
+        margin-top: -4em;
+        width: 100%;
+    }
+
+    .bloquedis{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .galeria3d{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .redes{
+        display: flex;
+        flex-direction: column;
+        margin-top: -3em;
+    }
+
+    .redes h3{
+        margin: 2em 0;
+    }
+
+    footer p{
+        padding: 0 2em;
+        width: 100%;
+    }
+
+    .logo-final{
+        width: 100%;
+    }
 }
